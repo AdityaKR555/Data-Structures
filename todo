@@ -1,0 +1,63 @@
+🔤 Day 2 – Strings in Java
+🔹 1. Basics to Revise
+String declaration and initialization
+
+String vs StringBuilder vs StringBuffer
+
+String immutability
+
+Common methods:
+.length(), .charAt(), .substring(), .equals(), .equalsIgnoreCase(), .indexOf(), .contains(), .toCharArray()
+
+🧠 2. Important Concepts
+Traversing a string using loop
+
+Character-wise operations
+
+Comparing strings
+
+Palindrome logic
+
+Mutable strings using StringBuilder
+
+🧩 3. Practice Questions
+Start from these easy to moderate:
+
+✅ Count vowels and consonants
+
+✅ Reverse a string
+
+✅ Check if a string is a palindrome
+
+✅ Remove duplicate characters
+
+✅ Check if two strings are anagrams
+
+✅ Find the highest occurring character
+
+✅ Toggle each character’s case
+
+✅ Count frequency of characters
+
+✅ Find all substrings of a string
+
+✅ Check if a string contains only digits
+
+🚀 Advanced + Interview Level
+Compress the string (e.g., "aaabbc" → "a3b2c1")
+
+Longest substring without repeating characters
+
+Longest palindromic substring
+
+String rotation check (e.g., "abcde" and "deabc")
+
+Pattern matching (basic)
+
+📌 Tips
+For string mutation, prefer StringBuilder
+
+Practice dry running loops on strings
+
+Anagram and frequency questions strengthen logic-building
+
