@@ -1,5 +1,4 @@
 //In this chapter, i am going to start my DSA journey using java and solve some popular array problems.
-import java.util.Arrays;
 import java.util.Scanner;
 
 class D1_Arrays{
@@ -48,19 +47,33 @@ class D1_Arrays{
         }
         System.out.println("Reversed array = " + Arrays.toString(x));
 
-        //Q4: Linear search an element
-        System.out.println("Enter the value to search: ");
-        int value = sc.nextInt();
-        boolean isfound = false;
-        for(int i=0; i<x.length; i++){
-            if(x[i] == value){
-                System.out.println(value + " Found at " + i + " index.");
-                isfound = true;
-                break;
-            }
+        //Q4: Reverse an array using while loop
+        int[] z = {25,13,30,37,28};
+        int i = 0, j = z.length-1;
+        int temp;
+        while(i<j){
+            temp = z[i];
+            z[i] = z[j];
+            z[j] = temp;
+            i++; j--;
         }
-        if(!isfound){
-            System.out.println(value + " is not present in the array.");
+        for(int a : z){
+            System.out.print(a + " ");
         }
+
+        //Q5: Linear search an element
+        // System.out.println("Enter the value to search: ");
+        // int value = sc.nextInt();
+        // boolean isfound = false;
+        // for(int i=0; i<x.length; i++){
+        //     if(x[i] == value){
+        //         System.out.println(value + " Found at " + i + " index.");
+        //         isfound = true;
+        //         break;
+        //     }
+        // }
+        // if(!isfound){
+        //     System.out.println(value + " is not present in the array.");
+        // }
     }
 }
