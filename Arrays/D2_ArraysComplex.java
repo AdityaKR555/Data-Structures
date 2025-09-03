@@ -256,6 +256,11 @@ public static void main(String[] args) {
 // }
 // System.out.println("Maximum sum = " + maxSum);
 
+//Q15: rotate the given array by k steps
+int[] exarr = {10,20,30,40,50};
+int k = 3;
+
+
 
 
 }
